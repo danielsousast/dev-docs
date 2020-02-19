@@ -16,17 +16,33 @@ Com o Homebrew instalado vamos instalar o NVM. Para isso execute o seguinte coma
 ``` 
 brew install nvm
 ```
+## Utilizando NVM
+
 Agora o NVM está disponível apra que possamos instalar a versão desejada do Node. O NVM possui alguns comandos disponíveis, para ver todos eles execute ***nvm --help**. 
 
-Para ver todas as versões do Node disponíveis para download execute:
+
+### Verificando a versão
 
 ```
-nvm ls-remote
-```
-Agora execute o comando nvm install **<version>** abaixo para instalar a versão desejada:
-
-```
-nvm install -s v12.14.1
+nvm --version
 ```
 
-Pronto, agora o Node está instalado no seu Mac.
+### Listando completa de versões disponíveis do Node
+```
+nvm ls-remote node
+```
+
+### Instalando versões do Node.js
+O NVM nos permite instalar várias versões do Node.js. Basta executar o comando de instalação seguido da versão desejada.
+Para instalarmos o Node.js na versão 8.3.0, executamos o seguinte comando:
+
+```
+nvm install v12.13.1
+```
+Para instalar a versão mais recente do Node.js, execute:
+```
+nvm install node
+```
+### Listando as versões instaladas
+```
+nvm ls
