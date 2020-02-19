@@ -1,5 +1,5 @@
 
-# Instalando Node bia NVM no MacOS
+# Instalando Node via NVM no MacOS
 
 A melhor forma para instalar o Node em nossa máquina é através do **NVM**, que é um gerenciador de versões do Node. Instalaremos o NVM através do Gerenciador de pacotes Homebrew
 
