@@ -1,5 +1,5 @@
 
-# Configurando ambiente React native no Linux(Ubuntu)
+# Ambiente React native no Linux(Ubuntu)
 
 ## Instalando Node
 
