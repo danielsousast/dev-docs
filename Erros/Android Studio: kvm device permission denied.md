@@ -1,4 +1,4 @@
-#Android Studio: /dev/kvm device permission denied
+# Android Studio: /dev/kvm device permission denied
 
 Execute o seguinte comando no terminal:
 
