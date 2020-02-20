@@ -12,6 +12,7 @@ Há várias maneiras de instalar o Node. js. É recomendável usar um Gerenciado
 
 **4.** O assistente de instalação do setup-NVM-for-Windows guiará você pelas etapas de instalação, incluindo a escolha do diretório onde NVM-Windows e node. js serão instalados.
 
+
 ## Utilizando NVM-Windows
 
 **5.** Quando a instalação for concluída. Abra o PowerShell e tente usar o Windows-NVM para listar quais versões do nó estão atualmente instaladas (não deve ser nenhuma neste ponto): 
