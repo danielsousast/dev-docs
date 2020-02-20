@@ -17,11 +17,10 @@ Há várias maneiras de instalar o Node. js. É recomendável usar um Gerenciado
 
 **5.** Quando a instalação for concluída. Abra o PowerShell e tente usar o Windows-NVM para listar quais versões do nó estão atualmente instaladas (não deve ser nenhuma neste ponto): 
 
-**
 ```
 nvm ls
 ```
-**
+
 **6.** Instale a versão atual do node. js (para testar as melhorias de recursos mais recentes, mas com mais probabilidade de ter problemas do que a versão LTS): 
 
 ```
