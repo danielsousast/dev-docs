@@ -2,7 +2,7 @@
 
 Há várias maneiras de instalar o Node. js. É recomendável usar um Gerenciador de versão como versões alteradas muito rapidamente. Para fazer isso podemos usar o NVM-Windows:
 
-**1.** Abra o repositório do Windows-NVM no navegador da Internet e selecione o link baixar agora.
+**1.** Abra o repositório do **Windows-NVM** no navegador da Internet e selecione o link baixar agora.
 
 **2.** Baixe o arquivo **NVM-setup**.zip para a versão mais recente.
 
