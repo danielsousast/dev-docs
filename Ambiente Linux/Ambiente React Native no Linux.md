@@ -28,7 +28,14 @@ Agora algumas variáveis de ambiente precisam ser configuradas para criar aplica
 ```
 sudo vim $HOME/.bashrc
 ```
-Eu estou usando o editor de texto vim, você pdoe usar outrop de sua escolha, por exemplo o nano.
+Eu estou usando o editor de texto vim, você pdoe usar outro de sua escolha, por exemplo o vim.
+
+```
+export ANDROID_HOME=~/Library/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
 
 ## React Native CLI
 
