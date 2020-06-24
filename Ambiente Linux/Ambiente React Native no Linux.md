@@ -7,6 +7,12 @@ Para Instalar o Node a maneira mais adequada é através do Gerenciador de Versi
 
 ## Instalando Yarn
 
+O Yarn é uma "concorrente" do NPM e possui algumas vantagens em relação ao mesmo. Por isso vem sendo largamente usado pela comunidade. Para instalá-lo é bem simples. Basta executarmos usar o próprio NPM para far uma instalação de forma global:
+
+```
+npm insatall -global yarn
+```
+
 ## JDK
 
 Geralmente, aplicativos nativos para Android são criados em Java. Então Java Development Kit é necessário. Para instalar execute:
@@ -14,8 +20,8 @@ Geralmente, aplicativos nativos para Android são criados em Java. Então Java D
 ```
 sudo apt install openjdk-8-jdk
 ```
-## Android Studio
-Pode ser baixado diretamente no site oficial. Porém uma maneira pŕatica é através do snap:
+## Emulador do Android Studio
+Pode ser baixado diretamente no site oficial. Porém uma maneira pŕatica é através do snap ou fazer o download do pacote do site https://developer.android.com/:
 
 ```
 sudo snap install android-studio --classic
@@ -31,7 +37,7 @@ sudo vim $HOME/.bashrc
 Eu estou usando o editor de texto vim, você pdoe usar outro de sua escolha, por exemplo o vim.
 
 ```
-export ANDROID_HOME=~/Library/Android/Sdk
+export ANDROID_HOME=~/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
